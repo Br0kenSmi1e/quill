@@ -1,0 +1,10 @@
+{
+  "name": "quill",
+  "description": "Academic deliverables in Typst: learn a field, build an outline, render to reports, slides, or articles",
+  "version": "0.1.0",
+  "author": {
+    "name": "Jin-Guo Liu"
+  },
+  "license": "MIT",
+  "keywords": ["academic", "typst", "slides", "reports", "outline", "skills"]
+}
