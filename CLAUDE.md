@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Quill is a skill-based plugin for AI coding assistants that produces academic deliverables in Typst. It follows a two-stage pipeline: outline generation (understanding a topic and structuring it) followed by rendering (producing reports, slides, or articles).
+Quill is a skill-based plugin for AI coding assistants that produces academic deliverables in Typst. It follows a two-stage pipeline: outline generation (understanding a topic and structuring it) followed by rendering (producing slides, notes, articles, or posters).
 
 ## Architecture
 
@@ -10,9 +10,10 @@ Quill is a skill-based plugin for AI coding assistants that produces academic de
 
 ```
 [Outline Generators]           [Renderers]
-  /overview ──┐                 ┌── report (.typ)
-  /??? ───────┼── outline.md ──┼── slides (.typ)
-  /??? ───────┘                 └── article (.typ)
+  /overview ──┐                 ┌── slides (.typ)
+  /??? ───────┼── outline.md ──┼── notes (.typ)
+  /??? ───────┘                 ├── articles (.typ)
+                                └── posters (.typ)
 ```
 
 ## Skills

@@ -35,10 +35,19 @@ The outline is then ready for a renderer skill to turn into slides, a report, or
 
 ```
 /overview <topic>     <- learn the field, produce a curated outline
-[renderer] (planned)  <- turn outline into slides, report, or article
+[renderer] (planned)  <- turn outline into slides, notes, articles, or posters
 ```
 
 The outline file is the interface between the two stages. Any outline generator can feed any renderer.
+
+## Renderers (Planned)
+
+Four core deliverable types:
+
+- **Slides** — presentations, talks, conferences
+- **Notes** — field entry material, less formal than articles (your "theoretic minimal")
+- **Articles** — polished writeups for publication or public sharing
+- **Posters** — conference posters
 
 ## Pedagogical Principles
 
@@ -80,9 +89,10 @@ Without them, everything falls back to web search — still works, just less tho
 ## Roadmap
 
 - [x] `/overview` — learn a field, produce a curated outline
-- [ ] Report renderer — outline to Typst report
 - [ ] Slides renderer — outline to Typst slides
-- [ ] Article renderer — outline to Typst article
+- [ ] Notes renderer — outline to Typst notes
+- [ ] Articles renderer — outline to Typst articles
+- [ ] Posters renderer — outline to Typst posters
 - [ ] Additional outline generators
 
 ## License
