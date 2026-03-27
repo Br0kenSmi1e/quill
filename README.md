@@ -9,7 +9,7 @@ Works with [Claude Code](https://claude.ai/claude-code). Skill format inspired b
 **Claude Code:**
 
 ```
-/plugin install <org>/quill
+/plugin install Br0kenSmi1e/quill
 ```
 
 Then type `/overview <topic>` and start learning.
