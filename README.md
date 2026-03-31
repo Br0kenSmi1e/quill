@@ -9,7 +9,8 @@ Works with [Claude Code](https://claude.ai/claude-code). Skill format inspired b
 **Claude Code:**
 
 ```
-/plugin install Br0kenSmi1e/quill
+/plugin marketplace add Br0kenSmi1e/quill
+/plugin install quill
 ```
 
 Then type `/overview <topic>` and start learning.

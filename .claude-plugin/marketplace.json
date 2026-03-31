@@ -1,0 +1,21 @@
+{
+  "name": "quill-marketplace",
+  "owner": {
+    "name": "Longli Zheng"
+  },
+  "metadata": {
+    "description": "Academic deliverables in Typst",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "quill",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Br0kenSmi1e/quill.git"
+      },
+      "description": "Academic deliverables in Typst: learn a field, build an outline, render to reports, slides, or articles",
+      "version": "0.1.0"
+    }
+  ]
+}
