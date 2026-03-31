@@ -35,14 +35,19 @@ The outline is then ready for a renderer skill to turn into slides, a report, or
 
 ```
 /overview <topic>     <- learn the field, produce a curated outline
+/script <outline.md>  <- turn outline into a brief speaking/review script
 [renderer] (planned)  <- turn outline into slides, notes, articles, or posters
 ```
 
 The outline file is the interface between the two stages. Any outline generator can feed any renderer.
 
-## Renderers (Planned)
+## Renderers
 
-Four core deliverable types:
+- **Script** (`/script`) — brief bullet-point cues for speaking or review
+
+### Planned
+
+Four additional deliverable types:
 
 - **Slides** — presentations, talks, conferences
 - **Notes** — field entry material, less formal than articles (your "theoretic minimal")
@@ -63,7 +68,8 @@ If you have [sci-brain](https://github.com/QuantumBFS/sci-brain) installed, run 
 ```
 /survey <topic>       <- (sci-brain) build a literature map
 /overview <topic>     <- learn the field, produce outline
-[renderer] (planned)  <- turn outline into deliverable
+/script <outline.md>  <- brief speaking/review script
+[renderer] (planned)  <- slides, notes, articles, posters
 ```
 
 ## MCP Servers (Optional, Recommended)
@@ -84,11 +90,12 @@ Without them, everything falls back to web search — still works, just less tho
 - **References** — `docs/discussion/YYYY-MM-DD-HHMMSS-overview-references.bib`
 - **Outlines** — `docs/discussion/YYYY-MM-DD-HHMMSS-overview-outline.md`
 - **User profile** — `docs/discussion/user-profile.md`
-- **Rendered output** — `articles/` (future, when renderers are available)
+- **Rendered output** — `deliverables/`
 
 ## Roadmap
 
 - [x] `/overview` — learn a field, produce a curated outline
+- [x] `/script` — outline to brief speaking/review script
 - [ ] Slides renderer — outline to Typst slides
 - [ ] Notes renderer — outline to Typst notes
 - [ ] Articles renderer — outline to Typst articles

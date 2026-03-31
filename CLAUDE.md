@@ -10,15 +10,17 @@ Quill is a skill-based plugin for AI coding assistants that produces academic de
 
 ```
 [Outline Generators]           [Renderers]
-  /overview ──┐                 ┌── slides (.typ)
-  /??? ───────┼── outline.md ──┼── notes (.typ)
-  /??? ───────┘                 ├── articles (.typ)
+  /overview ──┐                 ┌── /script (.typ)
+  /??? ───────┼── outline.md ──┼── slides (.typ)
+  /??? ───────┘                 ├── notes (.typ)
+                                ├── articles (.typ)
                                 └── posters (.typ)
 ```
 
 ## Skills
 
 - **overview** — Interactive field overview using a failure-driven four-act narrative. Teaches a topic, then produces a curated markdown outline from the conversation. Optionally uses sci-brain survey registry if available, otherwise does its own research.
+- **script** — Renderer that generates a brief speaking/review script from a curated outline. Produces terse bullet-point cues in Typst. Outline-agnostic (works with any generator).
 
 ## Key Conventions
 
@@ -26,3 +28,4 @@ Quill is a skill-based plugin for AI coding assistants that produces academic de
 - Output format: Typst
 - Conversation logs: `docs/discussion/`
 - Design docs: `docs/plans/`
+- Rendered output: `deliverables/`
